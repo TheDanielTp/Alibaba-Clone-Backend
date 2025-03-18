@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-PresentationLayer", "01-PresentationLayer", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlibabaClone.WebAPI", "AlibabaClone.WebAPI\AlibabaClone.WebAPI.csproj", "{86C30C6A-D94B-488D-8F1A-38205205A126}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-ApplicationLayer", "02-ApplicationLayer", "{C3405FC6-0CDD-44C9-821C-10A7A9999FA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlibabaClone.Application", "AlibabaClone.Application\AlibabaClone.Application.csproj", "{7836FBE7-C82F-4529-B134-819125BB0A92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-DomainLayer", "03-DomainLayer", "{8B39AF58-0243-4193-9794-B049E4C60786}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlibabaClone.Domain", "AlibabaClone.Domain\AlibabaClone.Domain.csproj", "{7FDB626F-829D-4300-81E7-46768E1408D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-InfrastructureLayer", "04-InfrastructureLayer", "{E42F0B32-1F1D-42C7-999A-0D01733A4EBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlibabaClone.Infrastructure", "AlibabaClone.Infrastructure\AlibabaClone.Infrastructure.csproj", "{D567C91C-3432-4E32-B880-4875D62EC2A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86C30C6A-D94B-488D-8F1A-38205205A126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86C30C6A-D94B-488D-8F1A-38205205A126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86C30C6A-D94B-488D-8F1A-38205205A126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86C30C6A-D94B-488D-8F1A-38205205A126}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7836FBE7-C82F-4529-B134-819125BB0A92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7836FBE7-C82F-4529-B134-819125BB0A92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7836FBE7-C82F-4529-B134-819125BB0A92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7836FBE7-C82F-4529-B134-819125BB0A92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FDB626F-829D-4300-81E7-46768E1408D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FDB626F-829D-4300-81E7-46768E1408D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FDB626F-829D-4300-81E7-46768E1408D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FDB626F-829D-4300-81E7-46768E1408D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D567C91C-3432-4E32-B880-4875D62EC2A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D567C91C-3432-4E32-B880-4875D62EC2A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D567C91C-3432-4E32-B880-4875D62EC2A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D567C91C-3432-4E32-B880-4875D62EC2A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{86C30C6A-D94B-488D-8F1A-38205205A126} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{7836FBE7-C82F-4529-B134-819125BB0A92} = {C3405FC6-0CDD-44C9-821C-10A7A9999FA9}
+		{7FDB626F-829D-4300-81E7-46768E1408D9} = {8B39AF58-0243-4193-9794-B049E4C60786}
+		{D567C91C-3432-4E32-B880-4875D62EC2A0} = {E42F0B32-1F1D-42C7-999A-0D01733A4EBF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A5DFCB9-8A53-4764-A744-94DFF5F93A67}
+	EndGlobalSection
+EndGlobal

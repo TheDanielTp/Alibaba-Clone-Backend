@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "O2UHKFjhDYIUpH35JZkvrS1ot4VuvL3Vpy+4QIVLGkk=",
+  "Source": "AlibabaClone.WebAPI",
+  "BasePath": "_content/AlibabaClone.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

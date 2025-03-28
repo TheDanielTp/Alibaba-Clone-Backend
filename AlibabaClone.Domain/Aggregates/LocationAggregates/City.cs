@@ -10,10 +10,8 @@ namespace AlibabaClone.Domain.Aggregates.LocationAggregates
 {
     public class City : Entity<int>
     {
-        // Required properties
-        public required string Title { get; set; }
+        public string Title { get; set; }
 
-        // Navigation properties
-        public required virtual ICollection<Location> Locations { get; set; }
+        public virtual ICollection<Location> Locations { get; set; }
     }
 }

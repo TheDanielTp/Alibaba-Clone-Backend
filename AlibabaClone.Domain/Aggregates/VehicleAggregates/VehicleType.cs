@@ -10,10 +10,8 @@ namespace AlibabaClone.Domain.Aggregates.VehicleAggregates
 {
     public class VehicleType : Entity<short>
     {
-        // Required properties
-        public required string Title { get; set; }
+        public string Title { get; set; }
 
-        // Navigation properties
-        public required virtual ICollection<Vehicle> Vehicles { get; set; }
+        public virtual ICollection<Vehicle> Vehicles { get; set; }
     }
 }

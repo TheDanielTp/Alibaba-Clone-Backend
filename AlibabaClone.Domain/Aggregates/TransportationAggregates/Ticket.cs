@@ -12,29 +12,24 @@ namespace AlibabaClone.Domain.Aggregates.TransportationAggregates
 {
     public class Ticket : Entity<long>
     {
-        // Required properties
-        public long TransportationId { get; set; } // Foreign key
-        public long SeatId { get; set; } // Foreign key
-        public long BuyerId { get; set; } // Foreign key
-        public long TravelerId { get; set; } // Foreign key
+        public long TransportationId { get; set; }
+        public long SeatId { get; set; }
+        public long BuyerId { get; set; }
+        public long TravelerId { get; set; }
         public DateTime CreatedAt { get; set; }
+        
+        public long? CompanionId { get; set; }
 
-        // Optional properties
-        public long? CompanionId { get; set; } // Foreign key
+        public short TicketStatusId { get; set; }
+        public string SerialNumber { get; set; }
 
-        // Required properties
-        public short TicketStatusId { get; set; } // Foreign key
-        public string SerialNumber { get; protected set; }
-
-        // Optional properties
         public string? Description { get; set; }
 
-        // Navigation properties
-        public required virtual Seat Seat { get; set; }
-        public required virtual Account Buyer { get; set; }
-        public required virtual Person Traveler { get; set; }
-        public required virtual Person? Companion { get; set; }
-        public required virtual TicketStatus TicketStatus { get; set; }
-        public required virtual Transportation Transportation { get; set; }
+        public virtual Seat Seat { get; set; }
+        public virtual Account Buyer { get; set; }
+        public virtual Person Traveler { get; set; }
+        public virtual Person? Companion { get; set; }
+        public virtual TicketStatus TicketStatus { get; set; }
+        public virtual Transportation Transportation { get; set; }
     }
 }

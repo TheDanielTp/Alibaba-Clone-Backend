@@ -1,4 +1,5 @@
-﻿using AlibabaClone.Domain.Framework.Base;
+﻿using AlibabaClone.Domain.Aggregates.TransportationAggregates;
+using AlibabaClone.Domain.Framework.Base;
 using AlibabaClone.Domain.Framework.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -22,5 +23,6 @@ namespace AlibabaClone.Domain.Aggregates.AccountAggregates
 
         public virtual Gender Gender { get; set; }
         public virtual ICollection<Account> Accounts { get; set; }
+        public virtual ICollection<Ticket> TraveledTickets { get; set; }
     }
 }

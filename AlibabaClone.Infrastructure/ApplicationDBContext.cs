@@ -5,7 +5,6 @@ using AlibabaClone.Domain.Aggregates.TransactionAggregates;
 using AlibabaClone.Domain.Aggregates.TransportationAggregates;
 using AlibabaClone.Domain.Aggregates.VehicleAggregates;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Proxies;
 
 namespace AlibabaClone.Infrastructure
 {
@@ -41,6 +40,7 @@ namespace AlibabaClone.Infrastructure
 
         protected override void OnModelCreating (ModelBuilder modelBuilder)
         {
+            modelBuilder.UseCollation ("Persian_100_CI_AI");
             modelBuilder.ApplyConfigurationsFromAssembly (typeof (ApplicationDBContext).Assembly);
             base.OnModelCreating (modelBuilder);
         }

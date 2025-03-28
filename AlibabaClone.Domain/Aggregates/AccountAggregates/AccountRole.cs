@@ -8,8 +8,7 @@ namespace AlibabaClone.Domain.Aggregates.AccountAggregates
 {
     public class AccountRole
     {
-        // Required properties
-        public long AccountId { get; set; } // Foreign key
-        public short RoleId { get; set; } // Foreign key
+        public long AccountId { get; set; }
+        public short RoleId { get; set; }
     }
 }

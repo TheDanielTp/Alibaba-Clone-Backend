@@ -11,18 +11,15 @@ namespace AlibabaClone.Domain.Aggregates.VehicleAggregates
 {
     public class Seat : Entity<long>
     {
-        // Required properties
-        public int VehicleId { get; set; } // Foreign key
+        public int VehicleId { get; set; }
         public int Row { get; set; }
         public int Column { get; set; }
         public bool IsVIP { get; set; }
         public bool IsAvailable { get; set; }
 
-        // Optional properties
         public string? Description { get; set; }
 
-        // Navigation properties
-        public required virtual Vehicle Vehicle { get; set; }
-        public required virtual ICollection<Ticket> Tickets { get; set; }
+        public virtual Vehicle Vehicle { get; set; }
+        public virtual ICollection<Ticket> Tickets { get; set; }
     }
 }

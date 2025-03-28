@@ -10,7 +10,6 @@ namespace AlibabaClone.Domain.Aggregates.AccountAggregates
 {
     public class Role : Entity<short>
     {
-        // Required properties
-        public required string Title { get; set; }
+        public string Title { get; set; }
     }
 }

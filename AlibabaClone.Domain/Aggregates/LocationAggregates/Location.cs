@@ -11,14 +11,13 @@ namespace AlibabaClone.Domain.Aggregates.LocationAggregates
 {
     public class Location : Entity<int>
     {
-        // Required properties
-        public required string Title { get; set; }
-        public int CityId { get; set; } // Foreign key
-        public short LocationTypeId { get; set; } // Foreign key
+        public string Title { get; set; }
+        public int CityId { get; set; }
+        public short LocationTypeId { get; set; }
 
-        // Navigation properties
-        public required virtual City City { get; set; }
-        public required virtual LocationType LocationType { get; set; }
-        public required virtual ICollection<Transportation> Transportations { get; set; }
+        public virtual City City { get; set; }
+        public virtual LocationType LocationType { get; set; }
+        public virtual ICollection<Transportation> DepartingTransportations { get; set; }
+        public virtual ICollection<Transportation> ArrivingTransportations { get; set; }
     }
 }

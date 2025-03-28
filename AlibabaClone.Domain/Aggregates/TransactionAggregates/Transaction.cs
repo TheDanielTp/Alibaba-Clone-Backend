@@ -11,17 +11,14 @@ namespace AlibabaClone.Domain.Aggregates.TransactionAggregates
 {
     public class Transaction : Entity<long>
     {
-        // Required properties
         public decimal BaseAmount { get; set; }
         public decimal FinalAmount { get; set; }
         public string SerialNumber { get; protected set; }
-        public long TicketId { get; set; } // Foreign key
+        public long TicketId { get; set; }
         public DateTime CreatedAt { get; set; }
 
-        // Optional properties
         public long? CouponId { get; set; }
 
-        // Navigation properties
-        public required virtual Ticket Ticket { get; set; }
+        public virtual Ticket Ticket { get; set; }
     }
 }

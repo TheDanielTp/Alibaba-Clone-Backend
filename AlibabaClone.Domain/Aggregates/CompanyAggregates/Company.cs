@@ -11,10 +11,8 @@ namespace AlibabaClone.Domain.Aggregates.CompanyAggregates
 {
     public class Company : Entity<int>
     {
-        // Required properties
-        public required string Title { get; set; }
+        public string Title { get; set; }
 
-        // Navigation properties
-        public required virtual ICollection<Transportation> Transportations { get; set; }
+        public virtual ICollection<Transportation> Transportations { get; set; }
     }
 }

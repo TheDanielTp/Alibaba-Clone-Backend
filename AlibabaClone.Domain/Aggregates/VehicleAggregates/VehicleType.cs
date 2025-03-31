@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace AlibabaClone.Domain.Aggregates.VehicleAggregates
 {
-    public class VehicleType : Entity<short>
+    public class VehicleType : Entity<int>
     {
         public string Title { get; set; }
 

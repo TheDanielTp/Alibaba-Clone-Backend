@@ -1,0 +1,12 @@
+D:\Scripts\Order\AlibabaClone\AlibabaClone-BackEnd\AlibabaClone.Domain\bin\Debug\net8.0\AlibabaClone.Domain.deps.json
+D:\Scripts\Order\AlibabaClone\AlibabaClone-BackEnd\AlibabaClone.Domain\bin\Debug\net8.0\AlibabaClone.Domain.dll
+D:\Scripts\Order\AlibabaClone\AlibabaClone-BackEnd\AlibabaClone.Domain\bin\Debug\net8.0\AlibabaClone.Domain.pdb
+D:\Scripts\Order\AlibabaClone\AlibabaClone-BackEnd\AlibabaClone.Domain\obj\Debug\net8.0\AlibabaClone.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Scripts\Order\AlibabaClone\AlibabaClone-BackEnd\AlibabaClone.Domain\obj\Debug\net8.0\AlibabaClone.Domain.AssemblyInfoInputs.cache
+D:\Scripts\Order\AlibabaClone\AlibabaClone-BackEnd\AlibabaClone.Domain\obj\Debug\net8.0\AlibabaClone.Domain.AssemblyInfo.cs
+D:\Scripts\Order\AlibabaClone\AlibabaClone-BackEnd\AlibabaClone.Domain\obj\Debug\net8.0\AlibabaClone.Domain.csproj.CoreCompileInputs.cache
+D:\Scripts\Order\AlibabaClone\AlibabaClone-BackEnd\AlibabaClone.Domain\obj\Debug\net8.0\AlibabaClone.Domain.sourcelink.json
+D:\Scripts\Order\AlibabaClone\AlibabaClone-BackEnd\AlibabaClone.Domain\obj\Debug\net8.0\AlibabaClone.Domain.dll
+D:\Scripts\Order\AlibabaClone\AlibabaClone-BackEnd\AlibabaClone.Domain\obj\Debug\net8.0\refint\AlibabaClone.Domain.dll
+D:\Scripts\Order\AlibabaClone\AlibabaClone-BackEnd\AlibabaClone.Domain\obj\Debug\net8.0\AlibabaClone.Domain.pdb
+D:\Scripts\Order\AlibabaClone\AlibabaClone-BackEnd\AlibabaClone.Domain\obj\Debug\net8.0\ref\AlibabaClone.Domain.dll

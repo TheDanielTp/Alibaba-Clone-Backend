@@ -348,3 +348,10 @@ D:\Scripts\Order\AlibabaClone\AlibabaClone-BackEnd\AlibabaClone.WebAPI\obj\Debug
 D:\Scripts\Order\AlibabaClone\AlibabaClone-BackEnd\AlibabaClone.WebAPI\obj\Debug\net8.0\AlibabaClone.WebAPI.pdb
 D:\Scripts\Order\AlibabaClone\AlibabaClone-BackEnd\AlibabaClone.WebAPI\obj\Debug\net8.0\AlibabaClone.WebAPI.genruntimeconfig.cache
 D:\Scripts\Order\AlibabaClone\AlibabaClone-BackEnd\AlibabaClone.WebAPI\obj\Debug\net8.0\ref\AlibabaClone.WebAPI.dll
+D:\Scripts\Order\AlibabaClone\AlibabaClone-BackEnd\AlibabaClone.WebAPI\obj\Debug\net8.0\AlibabaClone.WebAPI.sourcelink.json
+D:\Scripts\Order\AlibabaClone\AlibabaClone-BackEnd\AlibabaClone.WebAPI\bin\Debug\net8.0\Castle.Core.dll
+D:\Scripts\Order\AlibabaClone\AlibabaClone-BackEnd\AlibabaClone.WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\Scripts\Order\AlibabaClone\AlibabaClone-BackEnd\AlibabaClone.WebAPI\bin\Debug\net8.0\AlibabaClone.Domain.dll
+D:\Scripts\Order\AlibabaClone\AlibabaClone-BackEnd\AlibabaClone.WebAPI\bin\Debug\net8.0\AlibabaClone.Infrastructure.dll
+D:\Scripts\Order\AlibabaClone\AlibabaClone-BackEnd\AlibabaClone.WebAPI\bin\Debug\net8.0\AlibabaClone.Infrastructure.pdb
+D:\Scripts\Order\AlibabaClone\AlibabaClone-BackEnd\AlibabaClone.WebAPI\bin\Debug\net8.0\AlibabaClone.Domain.pdb

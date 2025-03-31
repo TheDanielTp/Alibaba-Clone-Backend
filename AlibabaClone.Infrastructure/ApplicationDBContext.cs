@@ -15,6 +15,11 @@ namespace AlibabaClone.Infrastructure
 
         }
 
+        public ApplicationDBContext ()
+        {
+
+        }
+
         public DbSet<Account> Accounts { get; set; }
         public DbSet<AccountRole> AccountRoles { get; set; }
         public DbSet<Gender> Genders { get; set; }
@@ -26,7 +31,7 @@ namespace AlibabaClone.Infrastructure
         public DbSet<City> Cities { get; set; }
         public DbSet<Location> Locations { get; set; }
         public DbSet<LocationType> LocationTypes { get; set; }
-
+        
         public DbSet<Transaction> Transactions { get; set; }
 
         public DbSet<Ticket> Tickets { get; set; }
@@ -37,7 +42,6 @@ namespace AlibabaClone.Infrastructure
         public DbSet<Vehicle> Vehicles { get; set; }
         public DbSet<VehicleType> VehicleTypes { get; set; }
 
-
         protected override void OnModelCreating (ModelBuilder modelBuilder)
         {
             modelBuilder.UseCollation ("Persian_100_CI_AI");
@@ -47,7 +51,11 @@ namespace AlibabaClone.Infrastructure
 
         protected override void OnConfiguring (DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseLazyLoadingProxies ();
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseSqlServer ("Server=DESKTOP-8J86FSR;Database=AlibabaCloneDB;Integrated Security=True;Trusted_Connection=True;TrustServerCertificate=True")
+                              .UseLazyLoadingProxies ();
+            }
         }
     }
 }

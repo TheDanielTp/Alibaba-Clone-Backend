@@ -23,7 +23,7 @@ namespace AlibabaClone.Infrastructure.Framework.Base
             _context.Dispose ();
         }
 
-        public async Task<int> SaveChangesAsync ()
+        public async Task <int> SaveChangesAsync ()
         {
             return await _context.SaveChangesAsync ();
         }

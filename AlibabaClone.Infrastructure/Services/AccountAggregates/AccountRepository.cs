@@ -4,7 +4,7 @@ using AlibabaClone.Infrastructure.Framework.Base;
 
 namespace AlibabaClone.Infrastructure.Services.AccountAggregates
 {
-    public class AccountRepository : BaseRepository<ApplicationDBContext, Account, long>, IAccountRepository
+    public class AccountRepository : Repository<ApplicationDBContext, Account, long>, IAccountRepository
     {
         public AccountRepository (ApplicationDBContext dbContext) : base (dbContext)
         {

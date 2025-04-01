@@ -4,7 +4,7 @@ using AlibabaClone.Infrastructure.Framework.Base;
 
 namespace AlibabaClone.Infrastructure.Services.AccountAggregates
 {
-    public class GenderRepository : BaseRepository<ApplicationDBContext, Gender, short>, IGenderRepository
+    public class GenderRepository : Repository<ApplicationDBContext, Gender, short>, IGenderRepository
     {
         public GenderRepository (ApplicationDBContext dbContext) : base (dbContext)
         {

@@ -4,7 +4,7 @@ using AlibabaClone.Infrastructure.Framework.Base;
 
 namespace AlibabaClone.Infrastructure.Services.VehicleAggregates
 {
-    public class SeatRepository : BaseRepository<ApplicationDBContext, Seat, long>, ISeatRepository
+    public class SeatRepository : Repository<ApplicationDBContext, Seat, long>, ISeatRepository
     {
         public SeatRepository (ApplicationDBContext dbContext) : base (dbContext)
         {

@@ -46,7 +46,6 @@ builder.Services.AddScoped<IVehicleTypeRepository, VehicleTypeRepository> ();
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork> ();
 
-
 var app = builder.Build ();
 
 if (app.Environment.IsDevelopment ())
@@ -56,9 +55,7 @@ if (app.Environment.IsDevelopment ())
 }
 
 app.UseHttpsRedirection ();
-
 app.UseAuthorization ();
-
 app.MapControllers ();
 
 app.Run ();

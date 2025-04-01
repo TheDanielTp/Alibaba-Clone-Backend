@@ -2,7 +2,7 @@
 
 namespace AlibabaClone.Domain.Framework.Interfaces.Repositories.VehicleRepositories
 {
-    public interface IVehicleTypeRepository : IRepository<VehicleType, short>
+    public interface IVehicleTypeRepository : IRepository<VehicleType, int>
     {
 
     }

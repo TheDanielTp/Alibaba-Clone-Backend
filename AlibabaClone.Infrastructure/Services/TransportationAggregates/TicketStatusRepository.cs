@@ -4,7 +4,7 @@ using AlibabaClone.Infrastructure.Framework.Base;
 
 namespace AlibabaClone.Infrastructure.Services.TransportationAggregates
 {
-    public class TicketStatusRepository : BaseRepository<ApplicationDBContext, TicketStatus, short>, ITicketStatusRepository
+    public class TicketStatusRepository : Repository<ApplicationDBContext, TicketStatus, short>, ITicketStatusRepository
     {
         public TicketStatusRepository (ApplicationDBContext dbContext) : base (dbContext)
         {

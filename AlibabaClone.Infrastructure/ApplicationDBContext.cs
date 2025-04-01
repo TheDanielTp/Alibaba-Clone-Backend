@@ -10,6 +10,8 @@ namespace AlibabaClone.Infrastructure
 {
     public class ApplicationDBContext : DbContext
     {
+        string connectionString = "Server=DESKTOP-8J86FSR;Database=AlibabaCloneDB;Integrated Security=True;Trusted_Connection=True;TrustServerCertificate=True";
+
         public ApplicationDBContext (DbContextOptions<ApplicationDBContext> options) : base (options)
         {
 
@@ -53,7 +55,7 @@ namespace AlibabaClone.Infrastructure
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer ("Server=DESKTOP-8J86FSR;Database=AlibabaCloneDB;Integrated Security=True;Trusted_Connection=True;TrustServerCertificate=True")
+                optionsBuilder.UseSqlServer (connectionString)
                               .UseLazyLoadingProxies ();
             }
         }

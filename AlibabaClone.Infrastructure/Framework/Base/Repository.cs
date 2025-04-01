@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 
 namespace AlibabaClone.Infrastructure.Framework.Base
 {
-    public class BaseRepository<K_DbContext, T_Entity, U_PrimaryKey> : IRepository<T_Entity, U_PrimaryKey> where T_Entity : class where K_DbContext : DbContext
+    public class Repository<K_DbContext, T_Entity, U_PrimaryKey> : IRepository<T_Entity, U_PrimaryKey> where T_Entity : class where K_DbContext : DbContext
     {
         public virtual K_DbContext DbContext { get; set; }
         public virtual DbSet<T_Entity> DBSet { get; set; }
 
-        public BaseRepository (K_DbContext dbContext)
+        public Repository (K_DbContext dbContext)
         {
             DbContext = dbContext;
             DBSet = dbContext.Set<T_Entity> ();

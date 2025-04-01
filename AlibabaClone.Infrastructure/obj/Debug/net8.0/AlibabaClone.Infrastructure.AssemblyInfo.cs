@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AlibabaClone.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2f2e7fcce7400ec699754356753dd95b6b5cd52")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+954e796c2e12bc05ef6ffd3ace01bb7679f55d82")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlibabaClone.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlibabaClone.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

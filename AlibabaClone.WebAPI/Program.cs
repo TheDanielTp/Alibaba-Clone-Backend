@@ -1,3 +1,6 @@
+using AlibabaClone.Application.Interfaces;
+using AlibabaClone.Application.Mappers.Profiles;
+using AlibabaClone.Application.Services;
 using AlibabaClone.Domain.Framework.Interfaces;
 using AlibabaClone.Domain.Framework.Interfaces.Repositories.AccountRepositories;
 using AlibabaClone.Domain.Framework.Interfaces.Repositories.CompanyRepositories;
@@ -21,7 +24,8 @@ builder.Services.AddEndpointsApiExplorer ();
 builder.Services.AddSwaggerGen ();
 
 var connectionString = builder.Configuration.GetConnectionString ("DefaultConnection");
-builder.Services.AddDbContext<ApplicationDBContext> (options => options.UseSqlServer (connectionString));
+builder.Services.AddDbContext<ApplicationDBContext> (options =>
+    options.UseSqlServer (connectionString));
 
 builder.Services.AddScoped<IAccountRepository, AccountRepository> ();
 builder.Services.AddScoped<IGenderRepository, GenderRepository> ();
@@ -46,6 +50,11 @@ builder.Services.AddScoped<IVehicleTypeRepository, VehicleTypeRepository> ();
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork> ();
 
+builder.Services.AddScoped<ITransportationService, TransportationService> ();
+builder.Services.AddScoped<ICityService, CityService> ();
+
+builder.Services.AddAutoMapper (typeof (MappingProfile));
+
 var app = builder.Build ();
 
 if (app.Environment.IsDevelopment ())
@@ -55,7 +64,9 @@ if (app.Environment.IsDevelopment ())
 }
 
 app.UseHttpsRedirection ();
+
 app.UseAuthorization ();
+
 app.MapControllers ();
 
 app.Run ();

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AlibabaClone.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d88d1dc7f7db357c0769c7027f16b4254fd56f99")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a5f5c4a2f1b9991b5093983b32259cca079df86")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlibabaClone.WebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlibabaClone.WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

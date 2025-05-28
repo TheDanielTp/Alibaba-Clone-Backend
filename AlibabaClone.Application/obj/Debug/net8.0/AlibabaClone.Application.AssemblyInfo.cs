@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AlibabaClone.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2f2e7fcce7400ec699754356753dd95b6b5cd52")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02384ab3d23805fcc253bdc0f8acaeafce84bfcc")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlibabaClone.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlibabaClone.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AlibabaClone.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d88d1dc7f7db357c0769c7027f16b4254fd56f99")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1373b322d23b98bcfc4e11a0ad3fe72aa6bf673")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlibabaClone.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlibabaClone.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

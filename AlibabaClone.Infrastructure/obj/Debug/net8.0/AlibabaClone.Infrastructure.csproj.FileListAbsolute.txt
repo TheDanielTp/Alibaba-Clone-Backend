@@ -1,4 +1,5 @@
 D:\Scripts\Order\AlibabaClone\AlibabaClone-BackEnd\AlibabaClone.Infrastructure\bin\Debug\net8.0\AlibabaClone.Infrastructure.deps.json
+D:\Scripts\Order\AlibabaClone\AlibabaClone-BackEnd\AlibabaClone.Infrastructure\bin\Debug\net8.0\AlibabaClone.Infrastructure.runtimeconfig.json
 D:\Scripts\Order\AlibabaClone\AlibabaClone-BackEnd\AlibabaClone.Infrastructure\bin\Debug\net8.0\AlibabaClone.Infrastructure.dll
 D:\Scripts\Order\AlibabaClone\AlibabaClone-BackEnd\AlibabaClone.Infrastructure\bin\Debug\net8.0\AlibabaClone.Infrastructure.pdb
 D:\Scripts\Order\AlibabaClone\AlibabaClone-BackEnd\AlibabaClone.Infrastructure\bin\Debug\net8.0\AlibabaClone.Domain.dll
@@ -13,6 +14,5 @@ D:\Scripts\Order\AlibabaClone\AlibabaClone-BackEnd\AlibabaClone.Infrastructure\o
 D:\Scripts\Order\AlibabaClone\AlibabaClone-BackEnd\AlibabaClone.Infrastructure\obj\Debug\net8.0\AlibabaClone.Infrastructure.dll
 D:\Scripts\Order\AlibabaClone\AlibabaClone-BackEnd\AlibabaClone.Infrastructure\obj\Debug\net8.0\refint\AlibabaClone.Infrastructure.dll
 D:\Scripts\Order\AlibabaClone\AlibabaClone-BackEnd\AlibabaClone.Infrastructure\obj\Debug\net8.0\AlibabaClone.Infrastructure.pdb
-D:\Scripts\Order\AlibabaClone\AlibabaClone-BackEnd\AlibabaClone.Infrastructure\obj\Debug\net8.0\ref\AlibabaClone.Infrastructure.dll
-D:\Scripts\Order\AlibabaClone\AlibabaClone-BackEnd\AlibabaClone.Infrastructure\bin\Debug\net8.0\AlibabaClone.Infrastructure.runtimeconfig.json
 D:\Scripts\Order\AlibabaClone\AlibabaClone-BackEnd\AlibabaClone.Infrastructure\obj\Debug\net8.0\AlibabaClone.Infrastructure.genruntimeconfig.cache
+D:\Scripts\Order\AlibabaClone\AlibabaClone-BackEnd\AlibabaClone.Infrastructure\obj\Debug\net8.0\ref\AlibabaClone.Infrastructure.dll
